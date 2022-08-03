@@ -8,30 +8,4 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
-
-
-    fun playingMusic():Music{
-        return Music()
-    }
-    fun nextMusics(){
-
-    }
-    fun pause(currentTime:Double){
-
-    }
-    fun resume(){
-
-    }
-     fun stop(){
-
-    }
-    fun playPrevious(){
-
-    }
-    fun addToPlayingQueue(){
-
-    }
-    fun replaceMusics() {
-
-    }
 }

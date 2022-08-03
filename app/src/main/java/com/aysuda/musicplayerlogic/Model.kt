@@ -1,14 +1,21 @@
 package com.aysuda.musicplayerlogic
 
 data class Music(
-    val currentTime: Double,
+    var currentTime: Long,
+    var state: MusicState,
+    val time:Long,
     val album: String,
     val name: String,
     val singer: String,
     val coverUrl: String
 
 )
-
-enum class User {
+enum class MusicState{
+    playing,paused,stoped,resumed
+}
+data class User(
+    val type:UserType
+)
+enum class UserType {
     normal, premuim
 }
