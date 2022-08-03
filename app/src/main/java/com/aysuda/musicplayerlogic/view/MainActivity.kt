@@ -1,7 +1,8 @@
-package com.aysuda.musicplayerlogic
+package com.aysuda.musicplayerlogic.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.aysuda.musicplayerlogic.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

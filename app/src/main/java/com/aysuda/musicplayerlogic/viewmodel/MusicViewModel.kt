@@ -1,6 +1,10 @@
-package com.aysuda.musicplayerlogic
+package com.aysuda.musicplayerlogic.viewmodel
 
 import androidx.lifecycle.ViewModel
+import com.aysuda.musicplayerlogic.domain.Music
+import com.aysuda.musicplayerlogic.domain.MusicState
+import com.aysuda.musicplayerlogic.domain.User
+import com.aysuda.musicplayerlogic.domain.UserType
 import java.lang.Exception
 
 class MusicViewModel() : ViewModel() {
